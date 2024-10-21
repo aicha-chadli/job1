@@ -1,0 +1,202 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3e6f5;
+  color: #333;
+}
+
+header {
+  background-color: grey;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 2px -2px gray;
+}
+h1 {
+  font-family: "pacific";
+}
+a {
+  color: black;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Description{
+  align-content: center;
+}
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: end; 
+  align-items: end;
+  margin: 0 0 0 550px;
+  
+}
+.navHeader{
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.Description {
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+  font-size: 1.2em;
+
+}
+
+.images-section {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+
+.images-section img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px;
+  
+}
+
+
+.Services{
+display: flex;
+font-size: 12px;
+align-items: center;
+
+}
+
+
+footer {
+  background-color: grey;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 2px -2px gray;
+  
+}
+
+
+
+/*Entreprise---------------------------------------------------------------------*/
+
+.Descriptionequipe{
+  align-content: center;
+  text-align: center;
+  
+}
+.equipe1{
+  display: flex;
+}
+.equipe2{
+  display: flex;
+}
+img {
+  height: 200px ;
+  width: 200px;
+}
+.partie1{
+  margin: 0px 50px 0px 50px;
+  text-align: center;
+}
+.partie2{
+  margin: 0px 170px 0px 170px;
+}
+.ttequipe{
+  margin: 60px 0px 60px 0px;
+}
+.equipe1{
+  margin: 0px 0px 60px 0px;
+}
+.partie3{
+  margin: 0px 250px 0px 250px;
+}
+
+
+
+/*Realisations----------------------------------------------------------*/
+.flex-mosaic {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 20px;
+  padding: 20px;
+}
+.mosaic-item {
+  flex: 1 1 300px; 
+  max-width: 400px; 
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.mosaic-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: transform 0.3s ease; 
+}
+
+.mosaic-item:hover img {
+  transform: scale(1.1); 
+}
+
+/*Contacts--------------------------------------------------*/
+.formulaire{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}

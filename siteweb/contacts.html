@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contacts</title>
+</head>
+<body>
+  <header>
+    <div class="navHeader">  
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="entreprise.html">Entreprise</a>
+        <a href="Réalisations.html">Réalisations</a>
+        <a href="contacts.html">Contacts</a>
+      </nav>
+      <div class="topnav">
+          <input type="text" placeholder="Search..">
+      </div>
+    </div>
+      </header>
+    <div>
+    <h1>Une autre question ?</h1>
+    </div>
+  <main>
+    <section>
+      <h2>Formulaire de contact</h2>
+    <div class="formulaire">
+      <form action="action_page" method="post">
+        <!--civilité-->
+        <label for="civility">Civilité :</label>
+          <select id="civility" name="civility" required>
+            <option value="">-- Selectionnz votre civilité --</option>
+            <option value="Mr">Monsieur</option>
+            <option value="Mme">Madame</option>
+            <option value="Mlle">Madmoiselle</option>
+          </select>
+        <!--Prenom-->
+        <label for="firstname">Prénom :</label>
+        <input type="text" id="firstname" name="firstname" required>
+        <!--Nom-->
+        <label for="lastname">Nom :</label>
+        <input type="text" id="lastname" name="lastname" required>
+        <!--adresse-->
+        <label for="adress">Adresse postale :></label>
+        <textarea id="adress" name="adress" rows="3" required></textarea>
+        <!--Politique de confidentialité-->
+        <label type="checkbox" id="privacy-polict" name="privacy-policy" required></label>
+        J'accepte la <a href="politique-de-confidentialité.html" target="_blank">politique de confidentialité</a>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+    </section>
+  </main>
+
+</div>
+    </hr>
+</body>
+</html>
